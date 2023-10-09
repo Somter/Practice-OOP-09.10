@@ -6,7 +6,7 @@ Student::Student(string n, int a, string un, string g, string as[]) : Human(n, a
         assessments[i] = as[i];  
     }
 }
-
+ 
 void Student::Input() {
     Human::Input();
     University::Input();    
